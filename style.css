@@ -1,0 +1,95 @@
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+	font-family: sans-serif;
+}
+
+.robots{
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.android {
+  display: flex;
+  justify-content: center;
+	flex-wrap: wrap;
+}
+
+.head {
+  background-color: #55D;
+  width: 250px;
+  height: 180px;
+  border-radius: 250px 250px 5% 5%;
+	transition: all 0.5s;
+}
+
+.head:hover{
+	width: 350px;
+}
+
+.eyes {
+	position: relative;
+	top: 100px;
+	display: flex;
+}
+
+.left_eye, .right_eye {
+	background-color: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.left_eye {
+	margin-left: 25px;
+}
+
+.right_eye {
+	margin-left: 115px;
+}
+
+.upper_body{
+	width: 600px;
+	display: flex;
+	margin-top: 20px;
+	justify-content: center;
+}
+
+.left_arm, .right_arm {
+	width: 55px;
+	height: 200px;
+	background-color: #55D;
+	border-radius: 100px;
+}
+
+.torso {
+	width: 300px;
+	height: 275px;
+	background-color: #55D;
+	border-radius: 5%;
+	margin: 0 20px;
+}
+
+.lower_body {
+	width: 280px;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.left_leg, .right_leg {
+	width: 55px;
+	height: 200px;
+	background-color: #55D;
+	border-radius: 100px;
+	position: relative;
+	top: -50px;
+}
+
+.left_leg {
+	transition: all 0.2s;
+}
+
+.left_leg:hover{
+	transform: rotate(15deg);
+}
